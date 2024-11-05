@@ -170,7 +170,7 @@ export const IndustrialAutomatonPanel: React.FC = () => {
                                 INDUSTRIAL AUTOMATON
                             </h1>
                             <p className="text-blue-300/70 mt-2 font-mono">
-                                R2 Series Astromech Control Interface v2.4.1
+                                R2 Series Astromech Control Interface v0.1.0
                             </p>
                         </div>
                         <div className="flex items-center space-x-4">
