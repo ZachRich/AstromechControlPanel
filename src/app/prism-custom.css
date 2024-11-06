@@ -1,0 +1,54 @@
+/* src/app/prism-custom.css */
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #e3eaf2;
+    background: none;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    tab-size: 2;
+    hyphens: none;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #8b9cb3;
+}
+
+.token.punctuation {
+    color: #7a8ba0;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #66d9ef;
+}
+
+.token.string {
+    color: #7ee787;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #f92672;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #ff79c6;
+}

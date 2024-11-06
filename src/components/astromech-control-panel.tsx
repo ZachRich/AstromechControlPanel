@@ -17,6 +17,8 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
 import { Alert, AlertDescription } from '@/components/ui/alert';
+import Image from 'next/image'
+import { AstromechScriptingConsole } from './astromech-scripting-console';
 import axios from 'axios';
 
 interface Servo {
@@ -166,7 +168,8 @@ export const IndustrialAutomatonPanel: React.FC = () => {
                     <div className="flex items-center justify-between">
                         <div>
                             <h1 className="text-4xl font-mono text-blue-400 flex items-center">
-                                <Terminal className="mr-2" />
+                                <Image src="/Industrial_Automaton.png" alt="Industrial Automaton" width={128} height={128}
+                                       className="mr-2"/>
                                 INDUSTRIAL AUTOMATON
                             </h1>
                             <p className="text-blue-300/70 mt-2 font-mono">
@@ -342,6 +345,7 @@ export const IndustrialAutomatonPanel: React.FC = () => {
                             </div>
                         </CardContent>
                     </Card>
+                    <AstromechScriptingConsole/>
                 </div>
 
                 {/* Footer */}
