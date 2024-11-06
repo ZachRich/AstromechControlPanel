@@ -184,7 +184,7 @@ export const IndustrialAutomatonPanel: React.FC = () => {
                             }`}>
                                 <Power className="w-4 h-4" />
                                 <span className="font-mono uppercase text-sm">
-                  System {Object.values(componentStatus).every(status => status) ? 'Online' : 'Partial'}
+                  System {Object.values(componentStatus).every(status => status) ? 'Online' : 'Offline'}
                 </span>
                             </div>
                         </div>
